@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid_spanning</title>
+</head>
+<style>
+    .cont{
+        display: grid;
+        grid-template-columns: 1fr 5fr 5fr;
+    }
+    .boxi{
+        border: 2px solid red;
+        padding: 10px;
+        margin: 5px;
+        background-color: rgb(144, 228, 180);
+    }
+    .boxi:first-child{
+        /* grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 4; */
+        grid-column: 1 / span 7;
+        grid-row: 1 / span 7;
+    }
+    
+</style>
+<body>
+    <div class="cont">
+        <div class="boxi">Something went wrong</div> 
+        <div class="boxi">Something went wrong</div>
+        <div class="boxi">Something went wrong</div>
+        <div class="boxi">Something went wrong</div>
+        <div class="boxi">Something went wrong</div>
+        <div class="boxi">Something went wrong</div>
+        <div class="boxi">Something went wrong</div>
+
+    </div>
+    
+</body>
+</html>

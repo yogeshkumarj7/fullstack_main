@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid_Basic</title>
+</head>
+
+<style>
+    .country { 
+        display: grid;
+        /* grid-template-columns: 100%; */ 
+        grid-template-rows: 100%;
+        grid-template-columns: 5fr 5fr 10fr ;
+        /* grid-template-rows: 5fr 5fr 10fr ; */
+        /* grid-template-columns: 100px 300px 500px;  */
+        /* grid-template-rows: 100px 300px 500px;  */
+        grid-gap: 2rem; 
+
+    }
+    .state{
+        background-color: rgb(160, 213, 214);
+        margin: 3px;
+        border: 2px solid black; 
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <div class="country">
+        <div class="state">I am Maharashtr...</div>
+        <div class="state">I am Maharashtr...</div>
+        <div class="state">I am Maharashtr...</div>
+        <div class="state">I am Maharashtr...</div>
+        <div class="state">I am Maharashtr...</div>
+        <div class="state">I am Maharashtr...</div>
+        <div class="state">I am Maharashtr...</div>
+        <div class="state">I am Maharashtr...</div>
+        <div class="state">I am Maharashtr...</div>
+    </div>
+
+</body>
+
+</html>

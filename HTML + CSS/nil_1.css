@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bungee Inline', cursive;
+  font-family: 'Coming Soon', cursive;
+  font-family: 'Merienda One', cursive;
+align-items: center;}
+body {
+  background-color: #222;
+  color: #eee;
+}
+header{
+  margin-top: 20px;
+}
+.container {
+display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  text-align: center;
+  min-width: 350px;
+  margin: 0 auto;
+  /* background-color: yellow; */
+  height: 75vh;
+}
+.btn {
+  border-color: black;
+  border-radius: 250px;
+  font-size: 2rem;
+  padding: 10px 25px 10px 25px; 
+  color:red;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgba(245, 220, 225, 0.612);
+}
+/* .btn again{
+  margin-top: 50px;
+} */
+.again:hover{
+  color: rgb(233, 12, 12);
+}
+.betn{
+  font-size: 0rem;
+}
+#title {
+  font-size: 3rem;
+  color: green;
+  text-shadow:2px 2px rgb(188, 233, 142);
+}
+#number{
+  font-size: large;
+  color: rgb(0, 255, 60);
+}
+main{
+  margin-top:10px;
+}
+.guess{
+  border: 2px solid black;
+  height: 35px;
+  border-radius: 10px;
+}
+#ch{
+  padding: 5px;
+}
+#ch:hover{
+  background-color: chartreuse;
+  cursor: pointer;
+}
+.right{
+  padding-top: 15px;
+  color: rgb(255, 0, 170);
+}
+.label-score{
+  margin-top: 10px;
+}
+.label-highscore{
+  margin-top: 10px;
+}
+.score {
+  color: azure;
+}
+.highscore{
+  color: azure;
+  
+}
